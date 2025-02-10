@@ -1,0 +1,55 @@
+.menu-bar {
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    margin: 0 20px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    color: #007BFF;
+}
+
+.body {
+    padding-top: 60px; /* Para evitar que o conteúdo fique embaixo da barra de menu */
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: white;
+    transform: scale(1.1);
+}
