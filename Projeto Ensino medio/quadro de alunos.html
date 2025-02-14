@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptBR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style-quadro de alunos.css">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="style/style-quadro de alunos.css">
 </head>
 <body>
     <div class="menu-bar">
@@ -16,7 +16,30 @@
         </ul>
     </div>
     <div class="body">
-        <button>Exportar</button>
-    </div>
+        <label for="nomeAluno">Nome do Aluno:</label>
+<input type="text" id="nomeAluno" placeholder="Digite o nome do aluno">
+<br>
+<label for="nota1">Nota 1:</label>
+<input type="number" id="nota1" placeholder="Nota 1">
+<label for="nota2">Nota 2:</label>
+<input type="number" id="nota2" placeholder="Nota 2">
+<label for="nota3">Nota 3:</label>
+<input type="number" id="nota3" placeholder="Nota 3">
+<br>
+<button id="adicionar">Adicionar Aluno</button>
+
+<table border="1" id="tabelaAlunos">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Média</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <script src="script/script-quadro de alunos.js"></script>
 </body>
 </html>
