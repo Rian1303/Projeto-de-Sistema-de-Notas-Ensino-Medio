@@ -9,7 +9,6 @@
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .menu-bar ul {
     list-style: none;
     margin: 0;
@@ -17,7 +16,6 @@
     display: flex;
     justify-content: center;
 }
-
 .menu-bar ul li {
     margin: 0 20px;
 }
@@ -32,12 +30,10 @@
 .menu-bar ul li a:hover {
     color: #007BFF;
 }
-
 .body {
     padding-top: 60px; /* Para evitar que o conteúdo fique embaixo da barra de menu */
     text-align: center;
 }
-
 button {
     width: 100px;
     background-color: white;
